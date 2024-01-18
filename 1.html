@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function check(number) {
+        if (number % 2 === 0) {
+          console.log(number + " đây là số chẵn");
+        } else {
+          console.log(number + " đây là số lẻ");
+        }
+      }
+      let n1 = Math.floor(Math.random() * 100);
+      let n2 = Math.floor(Math.random() * 100);
+      let n3 = Math.floor(Math.random() * 100);
+
+      let result1 = check(n1);
+      let result2 = check(n2);
+      let result3 = check(n3);
+    </script>
+  </body>
+</html>

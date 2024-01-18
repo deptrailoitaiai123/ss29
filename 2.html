@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function check(arr) {
+        let longestElement = "";
+
+        for (let i = 0; i < arr.length; i++) {
+          if (arr[i].length > longestElement.length) {
+            longestElement = arr[i];
+          }
+        }
+
+        console.log(longestElement);
+        return longestElement;
+      }
+
+      let n = ["anh", "binh", "cuongdollar", "hieunguyen"];
+      //   console.log(n[3].length);
+      let nLongest = check(n);
+      console.log(nLongest.length);
+    </script>
+  </body>
+</html>

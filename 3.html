@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function check(arr, userInput) {
+        for (let i = 0; i < arr.length; i++) {
+          if (arr[i].includes(userInput)) {
+            console.log(arr[i]);
+          }
+        }
+      }
+
+      const n = ["abc", "zxc", "qwe", "hieu", "fgh"];
+
+      const ui = prompt("Nhập vào một chuỗi:");
+      check(n, ui);
+    </script>
+  </body>
+</html>
